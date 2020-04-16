@@ -1,5 +1,25 @@
+body{
+  background: rgb(100, 108, 111);
+}
+
+h1{
+  color: white;
+}
+
+
 .App {
   text-align: center;
+  background-image: url("https://unsplash.com/photos/KMvoHcB-w5g");
+  font-family: 'Courier New', Courier, monospace;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 5%;
+}
+
+.drugs{
+  width: 30%;
+  border-radius: 25px;
+  margin-bottom: 5%;
 }
 
 .App-logo {

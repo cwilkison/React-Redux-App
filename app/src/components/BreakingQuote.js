@@ -13,7 +13,7 @@ const BreakingQuote = (props) => {
     return (
         <div>
              {console.log(">>>-->>>", props.quote)}
-            <h1>Walter's Collection of Words</h1>
+            <h1>Walter's Collection of Words - API</h1>
             {props.isFetching ? (
             <Loader 
             type="Hearts" 
@@ -24,8 +24,8 @@ const BreakingQuote = (props) => {
              />
             ): 
             <div>
-                <h1>{props.quote.map(i => i.quote)}</h1>
-                <h3>{props.quote.map(i => i.author)}</h3>
+                <h3>{props.quote.map(i => i.quote)}</h3>
+                <h5>{props.quote.map(i => i.author)}</h5>
             </div>
                 
                 }
